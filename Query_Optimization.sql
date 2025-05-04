@@ -7,7 +7,7 @@ SELECT product, sale_price FROM bigbasket;
 # How can use WHERE and HAVING (Filtering data both)
 SELECT category, COUNT(*)
 FROM bigbasket
-GROUP BY category         #count the total number of category vise
+GROUP BY category         #count the total number of category wise
 
 HAVING category = "Beauty & Hygiene";     # HAVING is count the saparate category
 
