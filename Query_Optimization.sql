@@ -1,4 +1,3 @@
-USE live_session;
 SELECT * FROM bigbasket;
 
 # Non optimizing way
